@@ -32,6 +32,6 @@ public class SaleFragment extends Fragment implements AdapterView.OnItemClickLis
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        //
+
     }
 }
