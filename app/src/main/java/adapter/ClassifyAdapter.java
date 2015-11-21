@@ -27,6 +27,7 @@ public class ClassifyAdapter extends BaseAdapter {
     Context context;
     ViewHolder holder ;
 
+    //
     public ClassifyAdapter(Context context) {
         this.context = context;
     }
