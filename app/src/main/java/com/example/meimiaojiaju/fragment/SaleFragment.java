@@ -18,6 +18,7 @@ public class SaleFragment extends Fragment implements AdapterView.OnItemClickLis
 
     private ListView listView;
 
+    //主页面
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_sale, null);
