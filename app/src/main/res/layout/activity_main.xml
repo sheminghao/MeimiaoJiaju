@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/layout_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_checked"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#252525"
+        android:padding="3dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_sale"
+            style="@style/main_radioButton"
+            android:drawableTop="@drawable/checked_rb_sale"
+            android:textColor="@drawable/checked_rb_textcolor"
+            android:text="今日特卖"/>
+
+        <RadioButton
+            android:id="@+id/rb_classify"
+            style="@style/main_radioButton"
+            android:drawableTop="@drawable/checked_rb_classify"
+            android:textColor="@drawable/checked_rb_textcolor"
+            android:text="分类"/>
+
+        <RadioButton
+            android:id="@+id/rb_plaster"
+            style="@style/main_radioButton"
+            android:drawableTop="@drawable/checked_rb_plaster"
+            android:textColor="@drawable/checked_rb_textcolor"
+            android:text="止痛贴"/>
+
+        <RadioButton
+            android:id="@+id/rb_shopping"
+            style="@style/main_radioButton"
+            android:drawableTop="@drawable/checked_rb_shopping"
+            android:textColor="@drawable/checked_rb_textcolor"
+            android:text="购物车"/>
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/main_radioButton"
+            android:drawableTop="@drawable/checked_rb_mine"
+            android:textColor="@drawable/checked_rb_textcolor"
+            android:text="我的"/>
+
+    </RadioGroup>
+
+</LinearLayout>
