@@ -1,4 +1,4 @@
-package adapter;
+package com.example.meimiaojiaju.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,9 +14,9 @@ import com.example.meimiaojiaju.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.GoodsContextModel;
-import utils.UniversalUtil;
-import utils.VolleyUtils;
+import com.example.meimiaojiaju.model.GoodsContextModel;
+import com.example.meimiaojiaju.utils.UniversalUtil;
+import com.example.meimiaojiaju.utils.VolleyUtils;
 
 
 /**
