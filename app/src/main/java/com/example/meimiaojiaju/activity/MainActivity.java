@@ -14,6 +14,7 @@ import com.example.meimiaojiaju.fragment.PlasterFragment;
 import com.example.meimiaojiaju.fragment.SaleFragment;
 import com.example.meimiaojiaju.fragment.ShoppingFragment;
 
+///
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup rg_checked;
